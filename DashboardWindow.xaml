@@ -12,7 +12,7 @@
                FontWeight="Bold"
                FontSize="36"
                Width="310" />
-        <!-- Left buttons -->
+        
         <Button Content="Saldo"
                 HorizontalAlignment="Left"
                 Margin="70,150,0,0"

@@ -22,7 +22,7 @@ namespace Geldautomaat
             string rekeningnummer = GebruikersnaamTextBox.Text;
             string pincode = PincodeTextBox.Password;
 
-            // Query om het wachtwoord op te halen op basis van het rekeningnummer
+            // Query om het wachtwoord op te halen op van het rekeningnummer
             string wachtwoordQuery = "SELECT Wachtwoord FROM gebruiker u JOIN rekening r ON u.idGebruiker = r.Gebruiker_idGebruiker WHERE r.Rekeningnummer = @rekeningnummer";
 
             using (MySqlConnection connection = new MySqlConnection("Server=localhost;User ID=root;Password=;Database=geldautomaat"))

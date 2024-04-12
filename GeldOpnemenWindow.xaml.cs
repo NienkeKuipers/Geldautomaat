@@ -6,7 +6,7 @@ namespace Geldautomaat
 {
     public partial class GeldOpnemenWindow : Window
     {
-        private string huidigRekeningnummer; // Variabele om het rekeningnummer bij te houden
+        private string huidigRekeningnummer; // Variabele om het rekeningnummer bij houden
 
         // Ontvangt het rekeningnummer als parameter
         public GeldOpnemenWindow(string rekeningnummer)
