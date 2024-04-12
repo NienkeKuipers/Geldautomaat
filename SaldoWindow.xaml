@@ -1,0 +1,23 @@
+﻿<Window x:Class="Geldautomaat.SaldoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SaldoWindow"
+        Height="450"
+        Width="800">
+    <Grid Background="#FFFEE600">
+        <Label Content="Dit is uw huidige saldo:"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               FontWeight="Bold"
+               FontSize="24"
+               Margin="0,0,0,20" />
+
+        <TextBlock x:Name="SaldoTextBlock"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Top"
+                   FontSize="20"
+                   TextWrapping="Wrap"
+                   TextAlignment="Center"
+                   Margin="0,233,0,0" />
+    </Grid>
+</Window>

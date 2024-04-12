@@ -1,0 +1,55 @@
+﻿<Window x:Class="Geldautomaat.BedragStortenWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Bedrag Storten"
+        Height="450"
+        Width="800"
+        Background="#FFFEE600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center">
+            <Button x:Name="Bedrag20Button"
+                    Content="20 euro"
+                    FontSize="18"
+                    Margin="10,0,0,10"
+                    Click="BedragButton_Click" />
+            <Button x:Name="Bedrag50Button"
+                    Content="50 euro"
+                    FontSize="18"
+                    Margin="10,0,0,10"
+                    Click="BedragButton_Click" />
+            <Button x:Name="AfbrekenButton_Copy1"
+                    Content="Afbreken"
+                    FontSize="18"
+                    Margin="10,0,0,10"
+                    Click="AfbrekenButton_Click" />
+        </StackPanel>
+
+        <StackPanel Grid.Column="2"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    Margin="20,0,0,0">
+            <Button x:Name="Bedrag70Button"
+                    Content="70 euro"
+                    FontSize="18"
+                    Margin="0,0,0,10"
+                    Click="BedragButton_Click" />
+            <Button x:Name="Bedrag100Button"
+                    Content="100 euro"
+                    FontSize="18"
+                    Margin="0,0,0,10"
+                    Click="BedragButton_Click" />
+            <Button x:Name="AndereBedragButton"
+                    Content="Andere bedrag"
+                    FontSize="18"
+                    Click="AndereBedragButton_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

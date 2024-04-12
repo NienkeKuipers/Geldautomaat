@@ -1,0 +1,52 @@
+﻿<Window x:Class="Geldautomaat.DashboardWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DashboardWindow"
+        Height="450"
+        Width="800">
+    <Grid Background="#FFFEE600">
+        <Label Content="Maak uw keuze:"
+               HorizontalAlignment="Left"
+               Margin="260,54,0,0"
+               VerticalAlignment="Top"
+               FontWeight="Bold"
+               FontSize="36"
+               Width="310" />
+        <!-- Left buttons -->
+        <Button Content="Saldo"
+                HorizontalAlignment="Left"
+                Margin="70,150,0,0"
+                VerticalAlignment="Top"
+                Width="120"
+                Height="40"
+                Click="SaldoButton_Click" />
+        <Button Content="Geld storten"
+                HorizontalAlignment="Left"
+                Margin="70,220,0,0"
+                VerticalAlignment="Top"
+                Width="120"
+                Height="40"
+                Click="GeldStortenButton_Click" />
+        <Button Content="Afbreken"
+                HorizontalAlignment="Left"
+                Margin="70,344,0,0"
+                VerticalAlignment="Top"
+                Width="120"
+                Height="40" />
+     
+        <Button Content="Geld opnemen"
+                HorizontalAlignment="Right"
+                Margin="0,150,70,0"
+                VerticalAlignment="Top"
+                Width="120"
+                Height="40"
+                Click="GeldOpnemenButton_Click" />
+        <Button Content="Transacties"
+                HorizontalAlignment="Right"
+                Margin="0,220,70,0"
+                VerticalAlignment="Top"
+                Width="120"
+                Height="40"
+                Click="Transactie_Click" />
+    </Grid>
+</Window>
