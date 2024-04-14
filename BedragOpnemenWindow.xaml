@@ -4,7 +4,8 @@
         Title="Geldautomaat - Bedrag Opnemen"
         Height="450"
         Width="800"
-        Background="#FFFEE600">
+        Background="#FFFFE082">
+    <!-- Changed background color to match the styling of the first window -->
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto" />
@@ -19,17 +20,32 @@
                     Content="20 euro"
                     FontSize="18"
                     Margin="10,0,0,10"
-                    Click="BedragButton_Click" />
+                    Click="BedragButton_Click"
+                    FontFamily="Arial"
+                    FontWeight="Bold"
+                    BorderBrush="#FFDAA520"
+                    Background="#FFDAA520"
+                    Foreground="White" />
             <Button x:Name="Bedrag50Button"
                     Content="50 euro"
                     FontSize="18"
                     Margin="10,0,0,10"
-                    Click="BedragButton_Click" />
+                    Click="BedragButton_Click"
+                    FontFamily="Arial"
+                    FontWeight="Bold"
+                    BorderBrush="#FFDAA520"
+                    Background="#FFDAA520"
+                    Foreground="White" />
             <Button x:Name="AfbrekenButton_Copy1"
                     Content="Afbreken"
                     FontSize="18"
                     Margin="10,0,0,10"
-                    Click="AfbrekenButton_Click" />
+                    Click="AfbrekenButton_Click"
+                    FontFamily="Arial"
+                    FontWeight="Bold"
+                    BorderBrush="#FFDAA520"
+                    Background="#FFDAA520"
+                    Foreground="White" />
         </StackPanel>
 
         <StackPanel Grid.Column="2"
@@ -40,16 +56,31 @@
                     Content="70 euro"
                     FontSize="18"
                     Margin="0,0,0,10"
-                    Click="BedragButton_Click" />
+                    Click="BedragButton_Click"
+                    FontFamily="Arial"
+                    FontWeight="Bold"
+                    BorderBrush="#FFDAA520"
+                    Background="#FFDAA520"
+                    Foreground="White" />
             <Button x:Name="Bedrag100Button"
                     Content="100 euro"
                     FontSize="18"
                     Margin="0,0,0,10"
-                    Click="BedragButton_Click" />
+                    Click="BedragButton_Click"
+                    FontFamily="Arial"
+                    FontWeight="Bold"
+                    BorderBrush="#FFDAA520"
+                    Background="#FFDAA520"
+                    Foreground="White" />
             <Button x:Name="AndereBedragButton"
                     Content="Andere bedrag"
                     FontSize="18"
-                    Click="AndereBedragButton_Click" />
+                    Click="AndereBedragButton_Click"
+                    FontFamily="Arial"
+                    FontWeight="Bold"
+                    BorderBrush="#FFDAA520"
+                    Background="#FFDAA520"
+                    Foreground="White" />
         </StackPanel>
         <Label Grid.Column="1"
                Content="Geld Opnemen"

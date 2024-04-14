@@ -8,7 +8,8 @@
         Title="GeldStortenWindow"
         Height="450"
         Width="800"
-        Background="#FFFEE600">
+        Background="#FFFFE082">
+    <!-- Changed background color to match the styling of the first window -->
 
     <Grid>
         <StackPanel HorizontalAlignment="Center"
@@ -22,7 +23,12 @@
                      Margin="0,0,0,10" />
             <Button Content="Storten"
                     FontSize="18"
-                    Click="StortenButton_Click" />
+                    Click="StortenButton_Click"
+                    FontFamily="Arial"
+                    FontWeight="Bold"
+                    BorderBrush="#FFDAA520"
+                    Background="#FFDAA520"
+                    Foreground="White" />
         </StackPanel>
     </Grid>
 </Window>

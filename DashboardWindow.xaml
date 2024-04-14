@@ -4,7 +4,8 @@
         Title="DashboardWindow"
         Height="450"
         Width="800">
-    <Grid Background="#FFFEE600">
+    <Grid Background="#FFFFE082">
+        <!-- Changed background color to match the styling of the first window -->
         <Label Content="Maak uw keuze:"
                HorizontalAlignment="Left"
                Margin="260,54,0,0"
@@ -12,41 +13,72 @@
                FontWeight="Bold"
                FontSize="36"
                Width="310" />
-        
+
+        <!-- Buttons with the same styling as in the first window -->
         <Button Content="Saldo"
                 HorizontalAlignment="Left"
                 Margin="70,150,0,0"
                 VerticalAlignment="Top"
                 Width="120"
                 Height="40"
-                Click="SaldoButton_Click" />
+                Click="SaldoButton_Click"
+                FontFamily="Arial"
+                FontSize="14"
+                FontWeight="Bold"
+                BorderBrush="#FFDAA520"
+                Background="#FFDAA520"
+                Foreground="White" />
         <Button Content="Geld storten"
                 HorizontalAlignment="Left"
                 Margin="70,220,0,0"
                 VerticalAlignment="Top"
                 Width="120"
                 Height="40"
-                Click="GeldStortenButton_Click" />
+                Click="GeldStortenButton_Click"
+                FontFamily="Arial"
+                FontSize="14"
+                FontWeight="Bold"
+                BorderBrush="#FFDAA520"
+                Background="#FFDAA520"
+                Foreground="White" />
         <Button Content="Afbreken"
                 HorizontalAlignment="Left"
                 Margin="70,344,0,0"
                 VerticalAlignment="Top"
                 Width="120"
-                Height="40" />
-     
+                Height="40"
+                FontFamily="Arial"
+                FontSize="14"
+                FontWeight="Bold"
+                BorderBrush="#FFDAA520"
+                Background="#FFDAA520"
+                Foreground="White" />
+
         <Button Content="Geld opnemen"
                 HorizontalAlignment="Right"
                 Margin="0,150,70,0"
                 VerticalAlignment="Top"
                 Width="120"
                 Height="40"
-                Click="GeldOpnemenButton_Click" />
+                Click="GeldOpnemenButton_Click"
+                FontFamily="Arial"
+                FontSize="14"
+                FontWeight="Bold"
+                BorderBrush="#FFDAA520"
+                Background="#FFDAA520"
+                Foreground="White" />
         <Button Content="Transacties"
                 HorizontalAlignment="Right"
                 Margin="0,220,70,0"
                 VerticalAlignment="Top"
                 Width="120"
                 Height="40"
-                Click="Transactie_Click" />
+                Click="Transactie_Click"
+                FontFamily="Arial"
+                FontSize="14"
+                FontWeight="Bold"
+                BorderBrush="#FFDAA520"
+                Background="#FFDAA520"
+                Foreground="White" />
     </Grid>
 </Window>

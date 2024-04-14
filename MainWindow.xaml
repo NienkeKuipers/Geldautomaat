@@ -8,7 +8,8 @@
         Title="MainWindow"
         Height="450"
         Width="800">
-    <Grid Background="#FFFEE600">
+    <Grid Background="#FFFFE082">
+        <!-- Levendigere gele kleur -->
         <Label Content="Rekeningnummer: "
                HorizontalAlignment="Left"
                Margin="70,193,0,0"
@@ -50,6 +51,12 @@
                 Margin="550,293,0,0"
                 VerticalAlignment="Top"
                 Width="85"
-                Height="26" />
+                Height="26"
+                FontFamily="Arial"
+                FontSize="14"
+                FontWeight="Bold"
+                BorderBrush="#FFDAA520"
+                Background="#FFDAA520"
+                Foreground="White" />
     </Grid>
 </Window>

@@ -3,8 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="TransactieWindow"
         Height="450"
-        Width="800">
-    <Grid Background="#FFFEE600">
+        Width="800"
+        Background="#FFFFE082">
+    <!-- Changed background color to match the styling of the first window -->
+
+    <Grid>
         <Label Content="Transacties"
                HorizontalAlignment="Center"
                Margin="0,22,0,0"
