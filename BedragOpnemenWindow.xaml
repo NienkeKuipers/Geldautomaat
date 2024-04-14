@@ -5,7 +5,7 @@
         Height="450"
         Width="800"
         Background="#FFFFE082">
-    <!-- Changed background color to match the styling of the first window -->
+  
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto" />

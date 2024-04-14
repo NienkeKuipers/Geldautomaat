@@ -9,7 +9,7 @@
         Height="450"
         Width="800">
     <Grid Background="#FFFFE082">
-        <!-- Levendigere gele kleur -->
+      
         <Label Content="Rekeningnummer: "
                HorizontalAlignment="Left"
                Margin="70,193,0,0"

@@ -14,7 +14,6 @@
                FontSize="36"
                Width="310" />
 
-        <!-- Buttons with the same styling as in the first window -->
         <Button Content="Saldo"
                 HorizontalAlignment="Left"
                 Margin="70,150,0,0"
