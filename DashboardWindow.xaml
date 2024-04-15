@@ -5,7 +5,6 @@
         Height="450"
         Width="800">
     <Grid Background="#FFFFE082">
-        <!-- Changed background color to match the styling of the first window -->
         <Label Content="Maak uw keuze:"
                HorizontalAlignment="Left"
                Margin="260,54,0,0"
